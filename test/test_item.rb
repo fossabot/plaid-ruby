@@ -152,7 +152,7 @@ class PlaidItemTest < PlaidTest
     create_item
 
     assert_raises(Plaid::InvalidInputError) do
-      @client.item.delete(BAD_STRING)
+      @client.item.remove(BAD_STRING)
     end
   end
 

@@ -61,7 +61,7 @@ http_interactions:
           },
           "request_id": "HAYyO"
         }
-    http_version: 
+    http_version:
   recorded_at: Wed, 12 Jul 2017 13:19:58 GMT
 - request:
     method: post
@@ -103,11 +103,11 @@ http_interactions:
           "error_type": "INVALID_INPUT",
           "request_id": "Ki0w7"
         }
-    http_version: 
+    http_version:
   recorded_at: Wed, 12 Jul 2017 13:19:59 GMT
 - request:
     method: post
-    uri: https://sandbox.plaid.com/item/delete
+    uri: https://sandbox.plaid.com/item/remove
     body:
       encoding: UTF-8
       string: '{"access_token":"access-sandbox-e33261ad-38f2-4153-9439-2e7f755cc8ce","client_id":"PLAID_RUBY_CLIENT_ID","secret":"PLAID_RUBY_SECRET"}'
@@ -150,6 +150,6 @@ http_interactions:
           "deleted": true,
           "request_id": "zbEpK"
         }
-    http_version: 
+    http_version:
   recorded_at: Wed, 12 Jul 2017 13:20:01 GMT
 recorded_with: VCR 3.0.3

@@ -65,7 +65,7 @@ http_interactions:
   recorded_at: Wed, 12 Jul 2017 13:11:10 GMT
 - request:
     method: post
-    uri: https://sandbox.plaid.com/item/delete
+    uri: https://sandbox.plaid.com/item/remove
     body:
       encoding: UTF-8
       string: '{"access_token":"access-sandbox-f48985c4-7ac6-45db-84a9-c2652def0405","client_id":"PLAID_RUBY_CLIENT_ID","secret":"PLAID_RUBY_SECRET"}'
